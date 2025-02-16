@@ -18,7 +18,7 @@ while True:
     if chance <= 0.01 or counter >= pity_limit:
         print(f"💐 Kamu nggak mimpi kok! Selamat, King! Dapet dia 👑 ({nama_ssr})!\n")
         
-        os.system("mpv lagu.mp3")
+        os.system("mpv saveinsta.cc_320kbps-yung-kai-blue-official-audio.mp3")
         break
     else:
         print(f"💩 Awokawok ampas! Coba lagi ({counter}/{pity_limit})\n")
