@@ -9,14 +9,14 @@ counter = 0
 pity_limit = 5
 
 while True:
-    input("🎰 gacha lagi alias depo lagi!!...")
+    input("🎰 jngn yerah!!...")
     counter += 1
 
     chance = random.uniform(0, 100)
 
     if chance <= 0.01 or counter >= pity_limit:
-        print(f"🔥 KING elu udh dpt dia🥹 MAXWIN ({nama_ssr})!\n")
+        print(f"💐💐💐💐congratulation({nama_ssr})!\n")
         break
     else:
-        print(f"💩 awokawok ampas (Percobaan ke-{counter})\n")
+        print(f"💩 awokawok ampas (coba lagi-{counter})\n")
         time.sleep(1) 
