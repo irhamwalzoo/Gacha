@@ -18,7 +18,7 @@ for char in green_text:
     time.sleep(0.01)
 
 # Nama author
-print(Fore.YELLOW + "Author:irham walzoo" + Style.RESET_ALL)
+print(Fore.YELLOW + "Author: 🗿" + Style.RESET_ALL)
 
 # Program utama
 print(Fore.MAGENTA + "💪 Inget ya kemungkinan cuma 0.01%! Semoga hoki!\n" + Style.RESET_ALL)
@@ -35,8 +35,9 @@ while True:
     chance = random.uniform(0, 100)
 
     if chance <= 0.01 or counter >= pity_limit:
-        print(Fore.MAGENTA + f"💐 Kamu nggak mimpi kok! Selamat! Dapet dia 👑 ({nama_ssr})!\n" + Style.RESET_ALL)
+        print(Fore.MAGENTA + f"💐 Kamu nggak mimpi kok! Selamat, King! Dapet dia 👑 ({nama_ssr})!\n" + Style.RESET_ALL)
         
+        print(Fore.YELLOW + "🎶 GGP BG! YG PENTING KAN NGAYAL SAMBIL DENGER NI LAGU 🎶\n" + Style.RESET_ALL)
         os.system("mpv 'saveinsta.cc_320kbps-yung-kai-blue-official-audio.mp3' &")
         break
     else:
