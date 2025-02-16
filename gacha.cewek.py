@@ -7,7 +7,7 @@ print("💪 Inget ya kemungkinan cuma 0.01%! Semoga hoki!\n")
 nama_ssr = input("Masukkan nama SSR impianmu: ")
 
 counter = 0
-pity_limit = random.randint(5, 10) 
+pity_limit = random.randint(3, 1) 
 
 while True:
     input(f"🎰 Yakin lanjut?({counter}/{pity_limit})... ")
