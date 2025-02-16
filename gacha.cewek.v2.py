@@ -18,7 +18,7 @@ for char in green_text:
     time.sleep(0.01)
 
 # Nama author
-print(Fore.YELLOW + "Author: 🗿" + Style.RESET_ALL)
+print(Fore.YELLOW + "Author: irham walzoo" + Style.RESET_ALL)
 
 # Program utama
 print(Fore.MAGENTA + "💪 Inget ya kemungkinan cuma 0.01%! Semoga hoki!\n" + Style.RESET_ALL)
